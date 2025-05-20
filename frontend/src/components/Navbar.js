@@ -21,7 +21,7 @@ function Navbar() {
       {isLoggedIn ? ( // kullanıcı giriş yapmışsa (isLoggedIn true).
         <button onClick={handleLogout}>Çıkış</button> // Sadece çıkış yapma butonu görünür.
       ) : (
-        <>     // kullanıcı giriş yapmamışsa giriş ve kayıt butonları görünür.
+        <>     
           <Link to="/login">Giriş</Link>
           <Link to="/register">Kayıt</Link>
         </>
