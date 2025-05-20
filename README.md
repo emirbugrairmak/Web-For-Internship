@@ -75,4 +75,8 @@ npm start
 - Dosya yükleme (PDF, PNG, JPG)
 - Dosya listeleme
 - Dosya silme
-- Kullanıcıya özel dosya yönetimi 
+- Kullanıcıya özel dosya yönetimi
+
+## Test Notu
+
+JWT ile korumalı endpoint'ler (dosya yükleme, listeleme, silme) Swagger UI'da test edilemez. Bu işlemler için terminalde curl komutları kullanılmalıdır. 
